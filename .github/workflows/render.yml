@@ -24,7 +24,7 @@ jobs:
 
       # Render the quarto file into rmd/
       - name: Render Rmarkdown
-        shell: quarto render index.qmd --output-dir=html
+        run: quarto render index.qmd --output-dir=html
 
       # Publish rmd/ to GitHub pages
       - name: Publish to GitHub pages 🚀
