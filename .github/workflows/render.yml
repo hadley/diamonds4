@@ -20,7 +20,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
 
       # Install quarto
-      - uses: quarto-dev/quarto-actions/setup
+      - uses: quarto-dev/quarto-actions/setup@v2
 
       # Render the quarto file into rmd/
       - name: Render Rmarkdown
