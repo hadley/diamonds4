@@ -1,5 +1,6 @@
 name: render.yaml
 on:
+ - [
   push:
     branches: main
 permissions:
